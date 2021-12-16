@@ -1,8 +1,6 @@
 package com.geoschmitt.bugtracker.service;
 
-import com.geoschmitt.bugtracker.config.security.TokenService;
 import com.geoschmitt.bugtracker.model.Bug;
-import com.geoschmitt.bugtracker.model.Epic;
 import com.geoschmitt.bugtracker.model.User;
 import com.geoschmitt.bugtracker.model.dto.BugForm;
 import com.geoschmitt.bugtracker.model.dto.BugUpdate;
@@ -48,10 +46,13 @@ public class BugService {
         return bugs;
     }
 
-    public void delete(Long bugId) {
+    public Boolean delete(Long bugId) {
         Optional<Bug> bug = this.bugRepository.findById(bugId);
-        if(bug.isPresent())
+        if(bug.isPresent()){
             this.bugRepository.delete(bug.get());
+            return Boolean.TRUE;
+        }
+        return Boolean.FALSE;
     }
 
     public Bug update(BugUpdate bugUpdate) {

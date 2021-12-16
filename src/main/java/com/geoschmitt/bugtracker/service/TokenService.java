@@ -1,4 +1,4 @@
-package com.geoschmitt.bugtracker.config.security;
+package com.geoschmitt.bugtracker.service;
 
 import com.geoschmitt.bugtracker.model.User;
 import com.geoschmitt.bugtracker.repository.UserRepository;

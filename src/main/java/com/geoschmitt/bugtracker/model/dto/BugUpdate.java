@@ -1,6 +1,6 @@
 package com.geoschmitt.bugtracker.model.dto;
 
-import com.geoschmitt.bugtracker.exceptions.BugTrackerException;
+import com.geoschmitt.bugtracker.config.exceptions.BugTrackerException;
 import com.geoschmitt.bugtracker.model.Bug;
 import com.geoschmitt.bugtracker.model.Epic;
 import com.geoschmitt.bugtracker.model.User;
@@ -10,7 +10,6 @@ import com.geoschmitt.bugtracker.repository.BugRepository;
 import com.geoschmitt.bugtracker.repository.EpicRepository;
 import com.geoschmitt.bugtracker.repository.UserRepository;
 
-import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import java.time.Instant;

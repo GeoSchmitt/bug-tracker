@@ -1,6 +1,7 @@
 package com.geoschmitt.bugtracker.config.security;
 
 import com.geoschmitt.bugtracker.repository.UserRepository;
+import com.geoschmitt.bugtracker.service.TokenService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

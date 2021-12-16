@@ -1,6 +1,5 @@
 package com.geoschmitt.bugtracker.service;
 
-import com.geoschmitt.bugtracker.config.security.TokenService;
 import com.geoschmitt.bugtracker.model.Epic;
 import com.geoschmitt.bugtracker.model.User;
 import com.geoschmitt.bugtracker.model.dto.EpicUpdate;

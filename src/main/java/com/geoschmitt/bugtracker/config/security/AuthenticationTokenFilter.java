@@ -2,6 +2,7 @@ package com.geoschmitt.bugtracker.config.security;
 
 import com.geoschmitt.bugtracker.model.User;
 import com.geoschmitt.bugtracker.repository.UserRepository;
+import com.geoschmitt.bugtracker.service.TokenService;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;

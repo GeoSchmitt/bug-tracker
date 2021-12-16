@@ -1,9 +1,7 @@
 package com.geoschmitt.bugtracker.controller;
 
-import com.geoschmitt.bugtracker.model.Bug;
 import com.geoschmitt.bugtracker.model.Epic;
 import com.geoschmitt.bugtracker.model.dto.*;
-import com.geoschmitt.bugtracker.service.BugService;
 import com.geoschmitt.bugtracker.service.EpicService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;

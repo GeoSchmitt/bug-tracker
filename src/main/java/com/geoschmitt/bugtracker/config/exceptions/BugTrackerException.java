@@ -1,4 +1,4 @@
-package com.geoschmitt.bugtracker.exceptions;
+package com.geoschmitt.bugtracker.config.exceptions;
 
 public class BugTrackerException extends RuntimeException{
 

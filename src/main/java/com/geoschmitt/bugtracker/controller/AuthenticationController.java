@@ -1,6 +1,6 @@
 package com.geoschmitt.bugtracker.controller;
 
-import com.geoschmitt.bugtracker.config.security.TokenService;
+import com.geoschmitt.bugtracker.service.TokenService;
 import com.geoschmitt.bugtracker.model.dto.LoginForm;
 import com.geoschmitt.bugtracker.model.dto.TokenDto;
 import org.springframework.beans.factory.annotation.Autowired;
